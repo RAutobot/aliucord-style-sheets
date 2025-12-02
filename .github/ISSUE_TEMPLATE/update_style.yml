@@ -1,0 +1,42 @@
+name: Update Existing Style
+description: Update an existing A.S.S style
+title: "[UPDATE] <Style Name>"
+labels: [update style]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Style Name
+      description: The name of the style you are updating
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: New Version
+      placeholder: 1.0.1
+    validations:
+      required: true
+
+  - type: textarea
+    id: changelog
+    attributes:
+      label: Changelog
+      description: What has changed in this version?
+    validations:
+      required: true
+
+  - type: textarea
+    id: file
+    attributes:
+      label: New Style File
+      description: Attach the new `.json` file here
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: New Screenshots
+      description: If the look changed significantly, add new screenshots here

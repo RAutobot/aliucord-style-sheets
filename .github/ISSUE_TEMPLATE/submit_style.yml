@@ -1,0 +1,52 @@
+name: Submit a Style
+description: Share your A.S.S style to the community!
+title: "[NEW] <Style Name>"
+labels: [new style]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Style Name
+      description: The name of your style
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: Your name or Discord username
+      placeholder: RazerTexz
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Style Mode
+      description: The mode of your style
+      options:
+        - Dark Mode
+        - Light Mode
+        - Amoled Mode
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Any extra details about the style
+
+  - type: textarea
+    id: file
+    attributes:
+      label: Style File
+      description: Attach your `.json` file here
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Attach your screenshots here (Optional but recommended)
