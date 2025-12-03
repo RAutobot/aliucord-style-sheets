@@ -32,19 +32,23 @@ Create a file named `YourStyleName.json`:
 
 | Property | Type | Value |
 | :--- | :--- | :--- |
+| `visibility` | String | `"GONE"` / `"INVISIBLE"` / `"VISIBLE"` |
 | `width` / `height` | Number | `100` (or `-1` for MATCH_PARENT, `-2` for WRAP_CONTENT) |
 | `leftMargin` / `topMargin` / `rightMargin` / `bottomMargin` | Number | `10` |
 | `paddingLeft` / `paddingTop` / `paddingRight` / `paddingBottom` | Number | `10` |
-| `textSize` | Number | `16.0` |
-| `textColor` | Hex Color | `"#FFFFFF"` |
+| `drawableTint` | Hex Color | `"#00FF00"` |
 | `bgColor` | Hex Color | `"#000000"` |
 | `bgTint` | Hex Color | `"#FF0000"` |
-| `drawableTint` | Hex Color | `"#00FF00"` |
+| `textSize` | Number | `16.0` |
+| `textColor` | Hex Color | `"#FFFFFF"` |
+| `typeface` | String | `"myfont.ttf"` (must be placed under `Aliucord/styles/`) |
+| `compoundDrawableTint` | Hex Color | `"#00FF00"` |
 | `gradientColors` | Array of Hex Color | `["#FF0000", "#0000FF"]` |
 | `gradientOrientation` | String | `"BL_TR"` / `"BOTTOM_TOP"` / `"BR_TL"` / `"LEFT_RIGHT"` / `"RIGHT_LEFT"` / `"TL_BR"` / `"TOP_BOTTOM"` / `"TR_BL"` |
-| `gradientType` | String |  `"LINEAR"` / `"RADIAL"` / `"SWEEP"` |
-| `visibility` | String | `"GONE"` / `"INVISIBLE"` / `"VISIBLE"` |
-| `typeface` | String | `"myfont.ttf"` (must be placed under `Aliucord/styles/`) |
+| `gradientType` | String | `"LINEAR"` / `"RADIAL"` / `"SWEEP"` |
+| `vectorPath` | String | `"M2,8 L5,2 L8,8"` |
+| `vectorWidth` | Number | `"32"` |
+| `vectorHeight` | Number | `"32"` |
 
 </details>
 
