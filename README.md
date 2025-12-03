@@ -1,7 +1,7 @@
 # A.S.S (Aliucord Style Sheets)
 Welcome to the official repository for **A.S.S (Aliucord Style Sheets)**.
 
-## How to start
+## How to Start
 Styles are simple JSON files placed in `Aliucord/styles/`. A style consists of a **Manifest** and **Rules**.
 
 **Rules** target Android View IDs (e.g., `chat_input_container`). You can find these IDs using Developer Assistant or by checking this [layout dump](https://github.com/RazerTexz/Discord-JADX/tree/main/decompiled/app/src/main/res/layout).
@@ -71,8 +71,8 @@ Since JSON values for custom properties are read as strings, you must format the
 }
 ```
 
-## How to submit a style
+## How to Submit a Style
 Fill out the form [here](https://github.com/RAutobot/test/issues/new?template=submit_style.yml) and submit your issue.
 
-## How to update a style
+## How to Update a Style
 Fill out the form [here](https://github.com/RAutobot/test/issues/new?template=update_style.yml) and submit your issue.
