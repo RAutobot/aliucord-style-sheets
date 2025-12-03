@@ -33,17 +33,17 @@ Create a file named `YourStyleName.json`:
 | Property | Type | Value |
 | :--- | :--- | :--- |
 | `width` / `height` | Number | `100` (or `-1` for MATCH_PARENT, `-2` for WRAP_CONTENT) |
-| `padding[Left/Top/Right/Bottom]` | Number | `10` |
-| `[left/top/right/bottom]Margin` | Number | `10` |
+| `leftMargin` / `topMargin` / `rightMargin` / `bottomMargin` | Number | `10` |
+| `paddingLeft` / `paddingTop` / `paddingRight` / `paddingBottom` | Number | `10` |
 | `textSize` | Number | `16.0` |
 | `textColor` | Hex Color | `"#FFFFFF"` |
 | `bgColor` | Hex Color | `"#000000"` |
 | `bgTint` | Hex Color | `"#FF0000"` |
 | `drawableTint` | Hex Color | `"#00FF00"` |
 | `gradientColors` | Array of Hex Color | `["#FF0000", "#0000FF"]` |
-| `gradientOrientation` | String | `"BL_TR"`, `"BOTTOM_TOP"`, `"BR_TL"`, `"LEFT_RIGHT"`, `"RIGHT_LEFT"`, `"TL_BR"`, `"TOP_BOTTOM"`, `"TR_BL"` |
-| `gradientType` | String |  `"LINEAR"`, `"RADIAL"`, `"SWEEP"` |
-| `visibility` | String | `"GONE"`, `"INVISIBLE"`, `"VISIBLE"` |
+| `gradientOrientation` | String | `"BL_TR"` / `"BOTTOM_TOP"` / `"BR_TL"` / `"LEFT_RIGHT"` / `"RIGHT_LEFT"` / `"TL_BR"` / `"TOP_BOTTOM"` / `"TR_BL"` |
+| `gradientType` | String |  `"LINEAR"` / `"RADIAL"` / `"SWEEP"` |
+| `visibility` | String | `"GONE"` / `"INVISIBLE"` / `"VISIBLE"` |
 | `typeface` | String | `"myfont.ttf"` (must be placed under `Aliucord/styles/`) |
 
 </details>
@@ -60,7 +60,8 @@ Since JSON values for custom properties are read as strings, you must format the
 * **Boolean:** `"true"` or `"false"`
 * **Color:** `"#RRGGBB"` or `"#AARRGGBB"`
 * **Float:** Must end with `f` (e.g., `"0.5f"`)
-* **Integer:** Standard numbers (e.g., `"10"`)
+* **Integer:** Must end with `i` (e.g., `"10i"`)
+* **String:** Default type (e.g., `"This is a string"`)
 
 **Example:**
 ```json
