@@ -47,8 +47,8 @@ Create a file named `YourStyleName.json`:
 | `gradientOrientation` | String | `"BL_TR"` / `"BOTTOM_TOP"` / `"BR_TL"` / `"LEFT_RIGHT"` / `"RIGHT_LEFT"` / `"TL_BR"` / `"TOP_BOTTOM"` / `"TR_BL"` |
 | `gradientType` | String | `"LINEAR"` / `"RADIAL"` / `"SWEEP"` |
 | `vectorPath` | String | `"M2,8 L5,2 L8,8"` |
-| `vectorWidth` | Number | `"32"` |
-| `vectorHeight` | Number | `"32"` |
+| `vectorWidth` | Number | `32` |
+| `vectorHeight` | Number | `32` |
 
 </details>
 
